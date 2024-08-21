@@ -1,7 +1,8 @@
 {
   "scripts":{
     "start":"vite",
-    "build":"tailwindcss -i style.css -o ./tailwind.css"
+    "build":"tailwindcss -i style.css -o ./tailwind.css",
+    "dev":"vite build"
 
   },
   "devDependencies": {
