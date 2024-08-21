@@ -90,7 +90,7 @@
 
             <!-- We design thoughtful, liveable spaces -->
             <section class="max-w-7xl m-auto bg-[#f4f4f4] m-atuo px-5 pt-20 pb-12 lg:pb-32 flex flex-col lg:flex-row gap-12 relative">
-                <div class="flex-1">
+                <div class="flex-1 lg:flex lg:flex-col lg:justify-between">
                     <div class="flex flex-col justify-center items-center lg:items-start gap-6">
                         <div>
                             <button class="w-auto text-[#494949] px-4 py-2 rounded-3xl bg-white flex items-center gap-2 font-extrabold">
@@ -108,7 +108,7 @@
                     </div>
 
                     <div class="flex flex-col md:flex-row lg:flex-col gap-4">
-                        <div class="flex gap-4 p-4 bg-white rounded-2xl">
+                        <div class="flex gap-4 p-4 lg:p-8 bg-white rounded-2xl">
                             <img class="w-10 h-12" src="./assets/commercial.png" alt="">
                             <div>
                                 <h3 class="text-base text-[#494949] font-extrabold mb-2">Commercial</h3>
@@ -116,7 +116,7 @@
                             </div>
                         </div>
 
-                        <div class="flex gap-4 p-4 bg-white rounded-2xl">
+                        <div class="flex gap-4 p-4 lg:p-8 bg-white rounded-2xl">
                             <img class="w-10 h-12" src="./assets/residential.png" alt="">
                             <div>
                                 <h3 class="text-base text-[#494949] font-extrabold mb-2">Residential</h3>
@@ -133,7 +133,7 @@
 
             </section> 
 
-            <section class="max-w-7xl m-12 lg:m-auto bg-white py-16 grid grid-rows-4 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-12 rounded-3xl">
+            <section class="max-w-7xl mx-6 lg:m-auto bg-white py-16 grid grid-rows-4 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 gap-12 rounded-3xl">
 
                 <div class="flex flex-col gap-2 items-center">
                     <img width="40" height="40" src="https://img.icons8.com/cute-clipart/40/very-popular-topic.png" alt="very-popular-topic"/>
@@ -221,7 +221,7 @@
                         </button>
                     </div>
                     <h2 class="text-2xl lg:text-4xl font-extrabold text-center lg:block">
-                        Our Works Process
+                        Our Latest Portfolio
                     </h2>
 
                     <p class="p1 text-center mb-6 text-[#494949]">
@@ -229,8 +229,8 @@
                     </p>
                 </div>
 
-                <div class="flex flex-col gap-5 md:grid md:grid-cols-2 md:grid-rows-4 lg:grid-rows-2 lg:grid-cols-4">
-                    <div class="p-4 bg-white rounded-2xl grid grid-rows-2 gap-5 md:grid-cols-[0.75fr,1fr] md:grid-rows-1 md:col-span-2 lg:col-span-3">
+                <div class="flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid-cols-3 mb-5">
+                    <div class="p-4 bg-white rounded-2xl grid grid-rows-2 gap-5 md:grid-cols-[0.75fr,1fr] md:grid-rows-1 md:col-span-2 lg:col-span-2">
                         <img class="w-full md:w-auto lg:w-auto rounded-2xl" src="./assets/img1.png" alt="">
 
                         <div>
@@ -251,11 +251,14 @@
                         <img class="md:h-44 w-full" src="./assets/img2.png" alt="">
                     </div>
 
-                    <div class="p-4 bg-white rounded-2xl lg:order-5">
+                    <div class="p-4 bg-white rounded-2xl lg:hidden">
                         <img class="md:h-44 w-full"  src="./assets/img5.png" alt="">
                     </div>
+                </div>    
 
-                    <div class="p-4 bg-white rounded-2xl  grid items-center justify-center grid-rows-2 gap-5 md:grid-cols-[0.75fr,1fr] md:grid-rows-1 md:col-span-2 lg:order-4">
+                <div class="flex flex-col gap-5 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">   
+                    
+                    <div class="p-4 bg-white rounded-2xl  grid items-center justify-center grid-rows-2 gap-5 md:grid-cols-[0.75fr,1fr] md:grid-rows-1 md:col-span-2 lg:order-1">
                         <img class="w-full md:w-auto lg:w-auto rounded-2xl" src="./assets/img4.png" alt="">
 
                         <div>
@@ -272,11 +275,11 @@
                         </div>
                     </div>
 
-                    <div class="p-4 bg-white rounded-2xl">
+                    <div class="p-4 bg-white rounded-2xl order-1">
                         <img class="md:h-44 w-full" src="./assets/img3.png" alt="">
                     </div>
 
-                    <div class="p-4 bg-white rounded-2xl lg:hidden">
+                    <div class="p-4 bg-white rounded-2xl ">
                         <img class="md:h-44 w-full" src="./assets/img5.png" alt="">
                     </div>
                 </div>
@@ -382,6 +385,8 @@
             </div>
         </section>
 
+        <!-- Reviews -->
+
         <!-- Let’s Discuss Next Project -->
         <section class="bg-[url('./assets/bg.jpg')] bg-cover bg-center pb-16">
             <div class="max-w-7xl m-auto bg-transparent px-5 md:px-16 lg:px-36 pt-16">
@@ -389,7 +394,7 @@
                     <div>
                         <button class="w-auto text-[#494949] px-4 py-2 rounded-3xl bg-[#ABEF5F33] flex items-center gap-2 font-extrabold">
                             <img width="25" height="25" src="https://img.icons8.com/ios-glyphs/30/long-arrow-right.png" alt="long-arrow-right"/>
-                            Let’s Discuss Next Project
+                            Let’s Connect
                         </button>
                     </div>
                     <h2 class="text-2xl lg:text-4xl font-extrabold text-center lg:block">
