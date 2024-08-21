@@ -12,11 +12,11 @@
 }
 
 .p1{
-    @apply text-sm md:text-base leading-6 md:w-5/6 md:leading-7 font-medium text-center text-[#494949] ;
+    @apply text-sm md:text-base leading-6 md:w-5/6 md:leading-7 font-medium  text-[#494949] ;
 }
 
 .p2{
-    @apply text-base md:text-base leading-7 md:w-5/6 md:leading-7 font-medium text-center text-[#737373] ;
+    @apply text-base md:text-base leading-7 md:w-5/6 md:leading-7 font-medium  text-[#737373] ;
 }
 
 
